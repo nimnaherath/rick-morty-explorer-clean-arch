@@ -16,13 +16,10 @@ function Index() {
         getCharactersInteractor
             .execute()
             .then((characterCollections: CharacterCollection) => {
-                setCharacters(characterCollections)
+                setCharacters(characterCollections);
             });
     }, [])
 
-    if (!characters) {
-        return <div>Loading...</div>
-    }
     return (
         <div>
             <h1>Characters</h1>

@@ -1,7 +1,7 @@
 import CharacterCollection from "../collections/CharacterCollection";
 
 interface CharacterRepositoryContract {
-  all(): Promise<CharacterCollection[]>;
+  all(): Promise<CharacterCollection>;
 }
 
 export default CharacterRepositoryContract;
