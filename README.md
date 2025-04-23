@@ -55,7 +55,7 @@ rick-and-morty/
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/nimnaherath/rick-morty-explorer-clean-arch]
+   git clone https://github.com/nimnaherath/rick-morty-explorer-clean-arch
    cd rick-and-morty
    ```
 
